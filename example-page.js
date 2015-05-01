@@ -1,9 +1,10 @@
-// See https://developer.sessionm.com/get_started 
+// Visit the developer portal at https://developer.sessionm.com/get_started
 // to get your app ID as well as setup actions and achievements
 
+// Fill in the variables below with values from the developer portal
 var SM_APP_ID = ""; // Your appID
-var YOUR_STANDARD_ACTION = ""; // Your action for standard achievement that fades in from top
-var YOUR_CUSTOM_ACTION = ""; // Your action for achievement with custom presentation
+var YOUR_STANDARD_ACTION = "standard_action"; // Your action for standard achievement that fades in from top
+var YOUR_CUSTOM_ACTION = "custom_action"; // Your action for achievement with custom presentation
 
 
 // === Widget Initialization ===
