@@ -30,6 +30,14 @@
   float: right;
 }
 
+.navbar-header {
+  float: left;
+}
+
+.navbar-nav {
+  width: 100%;
+}
+
 .row {
   padding-top: 15px;
   padding-right: 15px;
@@ -69,6 +77,10 @@
 }
 
 #info_header_text {
+  float: right;
+}
+
+#nav_bar_box_widget_container_li {
   float: right;
 }
 
