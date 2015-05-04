@@ -19,9 +19,14 @@
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar_div">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span
+        <span class="icon-bar"></span>
+      </button>
       <a class="navbar-brand" href="#">Sample mPOINTS Site</a>
     </div>
-    <div>
+    <div class="collapse navbar-collapse" id="navbar_div"">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home</a></li>
         <li class="dropdown">
@@ -100,32 +105,30 @@
     </div>
     <div id="info_body">
       <p class="info-text">Earn points toward great prizes simply by enjoying our articles, galleries and newsletters.</p>
-      <a class="btn btn-primary btn-block info-btn" href="https://sessionm.zendesk.com/hc/en-us/articles/200161296-What-Are-mPOINTS-" target="_blank">Learn More
-      <span class="glyphicon glyphicon-chevron-right"></span></a>
+      <a class="btn btn-primary btn-block info-btn" href="https://sessionm.zendesk.com/hc/en-us/articles/200161296-What-Are-mPOINTS-" target="_blank">Learn More</a>
     </div>
   </div>
-
 
   <!-- Container for the custom achievement widget -->
   <div id="achievement_widget_container">
     <div class="row">
-      <div class="col-xs-1">
+      <div class="col-sm-1">
         <img src="Resources/GiftBox40x40.png">
       </div>
 
       <!-- Achievement name and "earned" message -->
-      <div class="col-xs-4">
+      <div class="col-sm-4">
         <span class="achievement-text" id="achievement_name"></span>
         <p id="achievement_message"></p>
       </div>
 
       <!-- Achievement point value -->
-      <div class="col-xs-3">
+      <div class="col-sm-3">
         <span class="achievement-text" id="achievement_point_value"></span>
       </div>
 
       <!-- Click this button to claim the custom achievement -->
-      <div class="col-xs-4">
+      <div class="col-sm-4">
         <button type="button" class="btn btn-primary" onclick="claimCustomAchievement()">CLAIM ACHIEVEMENT</button>
       </div>
     </div>
