@@ -92,3 +92,8 @@
   float: right;
   width: 25%;
 }
+
+/* Ensures achievement alert element's box-sizing style isn't changed by boostrap */
+#smAA {
+  box-sizing: content-box !important;
+}
